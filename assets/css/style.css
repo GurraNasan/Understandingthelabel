@@ -11,3 +11,17 @@ body {
 	font-family: 'Lora', Arial, sans-serif;
 	background-color: #d8f5e5;
 }
+
+/* Header image and style */
+
+.page-header{
+    background: url(../media/sunsetvines.jpg) center 55% /cover no-repeat;
+    background-color: #556B2F;
+    text-align: left;
+    color: #e6f7ee ;
+    height: 150px;
+}
+
+.page-header h1 {
+    font-size: 200%;
+}
