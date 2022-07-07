@@ -25,3 +25,33 @@ body {
 .page-header h1 {
     font-size: 200%;
 }
+
+/* Nav menu */
+
+.nav{
+    background-color: #32251b;
+    height: 30px;
+    width: 100%;  
+    text-align: center;
+}
+
+.nav-menu li {
+    display: inline;
+    list-style-type: none;
+    font-size: 110%;
+    margin-right:50px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #e6f7ee;
+}
+
+.nav-menu a:hover{
+    background-color: #d8f5e5;
+    color: #32251b;
+}
+
+.active {
+    border-bottom: 3px solid #556B2F;
+}
