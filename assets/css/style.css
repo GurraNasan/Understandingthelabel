@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+
+/* Reset default value of browser and add ground color and font */
+*{
+    padding: 0;
+    margin: 0;
+    border:none;
+}
+
+body {
+	font-family: 'Lora', Arial, sans-serif;
+	background-color: #d8f5e5;
+}
