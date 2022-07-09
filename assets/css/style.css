@@ -60,14 +60,13 @@ body {
 /* Fact box and img */
 
 #general-fact {
-    height: 500px;
+    
     margin: 5px;
 }
 
 .fact-box {
     float: left;
-    width: 33%;
-    
+    width: 33%; 
 }
 
 .img-box {
@@ -95,4 +94,36 @@ body {
 
 .speed-fact ul {
     margin: 10px 0;
+}
+
+/* footer */
+
+footer {
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+footer ul {
+    text-align: center;
+    background-color: #32251b;
+}
+
+footer li {
+    display: inline;
+    color: #d8f5e5;
+}
+
+footer i {
+    font-size: 150%;
+    margin: 0 5%;
+    padding: 10px;
+    color: #d8f5e5;
+}
+#author {
+    float: right;
+    margin: 0 5px;
+    padding: 10px;
 }
