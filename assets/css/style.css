@@ -62,7 +62,7 @@ body {
 
 .fact-section {
     margin-left: 3px;
-    height: 750px;
+    height: 700px;
 }
 
 .fact-section div {
@@ -84,6 +84,7 @@ body {
 .img-box img {
     max-width: 100%;
     max-height: 100%;
+    margin-top: 30px;
     
 } 
 
@@ -91,6 +92,7 @@ body {
     float: right;
     border: #32251b solid 2px;
     width: 33%;
+    margin-top: 30px;
 }
 .speed-fact h3 {
     text-decoration: underline #32251b;
@@ -105,7 +107,7 @@ body {
     margin: 5px 0;
 }
 
-/* footer */
+/* footer  and social links*/
 
 footer {
     height: 50px;
@@ -140,21 +142,26 @@ footer i {
 
 /* Media queries */
 
-/* For screens up to 1000px */
-@media screen and (max-width: 1000px) {
+/* For screens up to 1100px */
+@media screen and (max-width: 1100px) {
 .fact-section {
     width: 75%;
-    height: 1500px;
+    height: 1200px;
     margin: 0 auto;
+    text-align: center;
     }
 .general-fact, .speed-fact {
     width: 100%;
     float: left;
-}
+    margin: 0;
+    }
 .img-box {
     clear: both;
     width: 100%;
-}
+    }
+    .img-box img {
+        margin: 0;
+        }    
 }
 
 /* for screens up to 450px */
@@ -165,16 +172,6 @@ footer i {
     }
 } 
 
-/* Style for the diffrent regions 
 
-.wine-region {
-    margin-left: 3px;
-    height: 800px;
-    display: inline;
-}
-#wine-region div {
-    box-sizing: border-box;
-}
-*/
 
 
