@@ -60,11 +60,12 @@ body {
 
 /* Fact box and img */
 
-#fact-section {
+.fact-section {
     margin-left: 3px;
+    height: 750px;
 }
 
-#fact-section div {
+.fact-section div {
     box-sizing: border-box;
 }
 
@@ -141,7 +142,7 @@ footer i {
 
 /* For screens up to 1000px */
 @media screen and (max-width: 1000px) {
-#fact-section {
+.fact-section {
     width: 75%;
     height: 1500px;
     margin: 0 auto;
@@ -163,3 +164,17 @@ footer i {
         padding: 0;
     }
 } 
+
+/* Style for the diffrent regions 
+
+.wine-region {
+    margin-left: 3px;
+    height: 800px;
+    display: inline;
+}
+#wine-region div {
+    box-sizing: border-box;
+}
+*/
+
+
