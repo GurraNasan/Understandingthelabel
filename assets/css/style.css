@@ -10,6 +10,7 @@
 body {
 	font-family: 'Lora', Arial, sans-serif;
 	background-color: #d8f5e5;
+    color: #32251b;
 }
 
 /* Header image */
@@ -59,11 +60,11 @@ body {
 
 /* Fact box and img */
 
-#fact-sektion {
+#fact-section {
     margin-left: 3px;
 }
 
-#fact-sektion div {
+#fact-section div {
     box-sizing: border-box;
 }
 
@@ -71,7 +72,9 @@ body {
     float: left;
     width: 33%; 
 }
-
+.general-fact h2 {
+    text-decoration: underline #32251b;
+}
 .img-box {
     width: 33%;
     margin: 0 auto;
@@ -87,6 +90,9 @@ body {
     float: right;
     border: #32251b solid 2px;
     width: 33%;
+}
+.speed-fact h3 {
+    text-decoration: underline #32251b;
 }
 
 .speed-fact li {
@@ -136,8 +142,8 @@ footer i {
 /* For screens up to 1000px */
 @media screen and (max-width: 1000px) {
 #fact-section {
-    width: 65%;
-    height: 1000px;
+    width: 75%;
+    height: 1500px;
     margin: 0 auto;
     }
 .general-fact, .speed-fact {
