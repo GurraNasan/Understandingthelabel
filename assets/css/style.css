@@ -110,6 +110,7 @@ footer {
 footer ul {
     text-align: center;
     background-color: #32251b;
+    height: 100%;
 }
 
 footer li {
@@ -131,6 +132,8 @@ footer i {
 }
 
 /* Media queries */
+
+/* For screens up to 1000px */
 @media screen and (max-width: 1000px) {
 #fact-section {
     width: 65%;
@@ -146,3 +149,11 @@ footer i {
     width: 100%;
 }
 }
+
+/* for screens up to 450px */
+@media screen and (max-width: 450px) {
+    .nav li {
+        margin: 0 5px;
+        padding: 0;
+    }
+} 
