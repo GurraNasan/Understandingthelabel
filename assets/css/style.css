@@ -62,7 +62,7 @@ body {
 
 .fact-section {
     margin-left: 3px;
-    height: 700px;
+    height: 600px;
 }
 
 .fact-section div {
@@ -72,6 +72,8 @@ body {
 .general-fact {
     float: left;
     width: 33%; 
+    text-align: center;
+    margin-top: 30px; 
 }
 .general-fact h2 {
     text-decoration: underline #32251b;
@@ -83,14 +85,12 @@ body {
 
 .img-box img {
     max-width: 100%;
-    max-height: 100%;
     margin-top: 30px;
     border-radius: 50%;
     
 } 
 .img-box video {
     max-width: 100%;
-    max-height: 100%;
     margin-top: 30px;
     
 } 
@@ -103,6 +103,7 @@ body {
 }
 .speed-fact h3 {
     text-decoration: underline #32251b;
+    text-align: center;
 }
 
 .speed-fact li {
@@ -112,6 +113,7 @@ body {
 
 .speed-fact ul {
     margin: 5px 0;
+    
 }
 
 /* footer  and social links*/
