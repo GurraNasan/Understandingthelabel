@@ -41,7 +41,7 @@ body {
     display: inline;
     list-style-type: none;
     font-size: 110%;
-    margin-right: 150px;
+    margin-right: 100px;
 }
 
 .nav-menu a {
@@ -121,6 +121,7 @@ body {
 form {
     width: 800px;
     margin: 50px auto;
+    background-color: #a3bd76;
 }
 
 #news-letter {
@@ -128,12 +129,12 @@ form {
     text-align: center;
     margin-top: 50px;
 }
-.block-lable {
-    display: block;
-}
 
-#news-letter input {
+
+.text-input {
     margin: 0 auto;
+    width: 50%;
+    display: block;
 }
 
 #button{
@@ -215,11 +216,14 @@ footer i {
         }    
 }
 
-/* for screens up to 450px */
-@media screen and (max-width: 450px) {
-    .nav li {
+/* for screens up to 650px */
+@media screen and (max-width: 650px) {
+    .nav-menu li {
         margin: 0 5px;
         padding: 0;
+    }
+    form {
+        width: 75%;
     }
 } 
 
