@@ -49,27 +49,30 @@ No errors were returned when passing through the official W3C validator
 ### CSS
 No errors were found when passing through the official (Jigsaw) validator
 ### Accessibility
+![Lighthouse](assets/media/accessibility.png)
 
+## Deployment
+The site was deployed to GitHub pages. 
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab.
+Press pages under Code and automation in the menu. 
+Under source you press the dropdown menu and choose main and press save. 
+Now the page is deployed and you can find the link in the blue box. 
+Here is the live link for my project: https://gurranasan.github.io/Understandingthelabel/
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
-
-Credits
+## Credits
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
 You can break the credits section up into Content and Media, depending on what you have included in your project.
 
-<h2>Content</h2>
-Fact text came from Forbes and Systembolaget
-The icons in the footer were taken from Font Awesome
-<h2>Media</h2>
-The photos and video came from <a src="https://pixabay.com/"> and <a src="https://www.pexels.com">
+### Content
+Fact text came from Forbes and Systembolaget.
+Code for the links in footer came from the i love running project.
+I took help from the html and css essentials course to understand how to do some code. 
+
+### Media 
+The photos and video came from [Pixaby](https://pixabay.com/) and [Pexels](https://www.pexels.com")
 
 
 
