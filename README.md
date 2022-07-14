@@ -1,71 +1,55 @@
-<h1>Understanding the label</h1>
+# Understanding the label
 
-The understanding the label page is a page there the visitors to learn about the French wine regions and what kind of grapes you can expect to find in this regions. This can me a jungel sometimes and hard do understand the labels. So the page is for those how want to learn more in aa easy way. 
+The understanding the label page is a page there the visitors to learn about the French wine regions and what kind of grapes you can expect to find in this regions. This can me a jungel sometimes and hard do understand the labels. So the page is for those how want to learn about french wine in an easy way and there are speed fact if you dont want to read the whole fact text.  
 
-Responsice Mockup
+![Responsice Mockup](assets/media/utl-responsiv.png)
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+## Features
 
-Existing Features
-Navigation Bar
+### Existing Features
 
-Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-Nav Bar
+#### Navigation menu and header img
+![Navigation menu and header img](assets/media/header-navmenu.png)
+On all pages you can see the header image and a navigation menu, it looks the same on all pages so the user will not get confused. Through the navigation menu you can 
+go to all the diffrent pages on the site without the use of the browser navigation buttons. The page you are on is underline in the menu. 
 
-The landing page image
+#### General fact
+![Generalfact](assets/media/general-fact.png)
+Here you can read about french wine laws, classification of wine and general fact about french wine. You can also see a map over the 7 biggest wineregions in France. 
 
-The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-This section introduces the user to Love Running with an eye catching animation to grab their attention
-Landing Page
+#### The north and south
+![north and south wineregions](assets/media/fact-site.png)
+This a two pages that works the same. You can read some fact about diffrent wine regions in France, we have split them up in north and south. In the north you can read about Alsace, Burgundy, Champagne and Loire. And in the south you can read about Bordeaux, Provence and Rhône. You can also se a picture from the diffrent wine regions, except Champange were there is a film instead. Far to the right of the two pages there is a speed fact box, where you can read about the grapes and the taste of the wine from each region. 
 
-Club Ethos Section
+#### Sign up
+![Sign up page](assets/media/Sign-up.png)
+On this page you can sign up for newsletter and wine tips. 
 
-The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
-Club Ethos
+#### The Footer
+![Footer](assets/media/footer.png)
+Here you can find links to social media where you can connect to more groups about wine and see pictures. All the links opens in a new tab for easy navigation. You can also see who made the site. 
 
-Meetup Times section
-
-This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-This section will be updated as these times change to keep the user up to date.
-Meetup Times
-
-The Footer
-
-The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-The footer is valuable to the user as it encourages them to keep connected via social media
-Footer
-
-
-The Sign Up Page
-
-This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
-Sign Up
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-<h2>Features Left to Implement</h2>
+### Features Left to Implement 
 In the future i want to implement a interactiv map. 
-It will also be more fact about the regions, maybe every region will have there own page. 
+It will also be more fact about the regions, maybe every region will have there own page with photo gallery
 
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+## Testing
+I have tried the site in Chrome and Microsoft edge and it worked the same in both browsers.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+I confirmed that my site is responsiv through the use of devtools in chrome. And i tried the site on my phone. 
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+I confirmed that the links in the footer opens in a new tab and that they not are broken links.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+I confirmed that the form works as i should you need to write a email in the email box and the submit button works. 
+I used the code institute form dump page to see that the right values were sent. 
 
-Validator Testing
-HTML
+## Validator Testing
+### HTML
 No errors were returned when passing through the official W3C validator
-CSS
+### CSS
 No errors were found when passing through the official (Jigsaw) validator
-Unfixed Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+### Accessibility
+
 
 Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
